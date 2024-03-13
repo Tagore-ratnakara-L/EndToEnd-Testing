@@ -6,7 +6,7 @@ import unittest
 import sys
 import os
 
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.append(os.path.join(os.path.dirname(__file__), "....", "...."))
 from Demo.POM.Pages.LoginPage import LoginPage
 from Demo.POM.Pages.HomePage import HomePage
 

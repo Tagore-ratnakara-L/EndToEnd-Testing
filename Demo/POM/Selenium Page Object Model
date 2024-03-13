@@ -26,3 +26,7 @@ To run test successfully from CMD terminal we have to import these below before 
 import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__),"..",".."))
+
+if still module not found error occurs go to the dir one above the Module
+and Run it as similar hierarchy below it will work.
+python -m Demo.POM.Tests.LoginTest
