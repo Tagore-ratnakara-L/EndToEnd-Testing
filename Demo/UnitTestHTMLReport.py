@@ -16,13 +16,6 @@ class MyTestCase(unittest.TestCase):
         Cls.driver.implicitly_wait(10)
         Cls.driver.maximize_window()
 
-    """This will run test browser twice"""
-
-    # def setUp(self):
-    #     self.driver = webdriver.Chrome()
-    #     self.driver.implicitly_wait(10)
-    #     self.driver.maximize_window()
-
     def test_search_1(self):
         self.driver.get("https://google.com")
         time.sleep(3)
@@ -47,14 +40,16 @@ class MyTestCase(unittest.TestCase):
         print(x)
         self.assertEqual(x, "Tagore ratnakar - Google Search")
 
+    @unittest.skip("This test is skipped test. ")
+    def test_skip(self):
+        """This test should be skipped."""
+        pass
+
     @classmethod
     def tearDownClass(Cls):
         Cls.driver.close()
         Cls.driver.quit()
 
-    # def tearDown(self):
-    #     self.driver.close()
-    #     self.driver.quit()
 
 
 if __name__ == '__main__':
