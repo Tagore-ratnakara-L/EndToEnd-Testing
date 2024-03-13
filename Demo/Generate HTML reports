@@ -1,0 +1,10 @@
+1. How to install HTML test runner
+2. How to generate html reports for selenium unit tests
+
+Step 1: Install HTML test runner
+        pip install -U html-testrunner
+
+Step 2: Add HTML Test Runner in unit test file
+        unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(
+        output='C:\\Users\\Prasa\\PycharmProjects\\CompleteTestingEndToEnd\\Demo\\Reports'))
+
