@@ -1,0 +1,11 @@
+Selenium Python :
+Sample project
+
+1.Create a test for Google Search
+2.Add implicit wait of 10 seconds
+3.Maximize window
+4.Run & Validate
+5.Create Unit Test
+6.Run from IDE and Command Line
+7.Add HTML reporting library
+8.Run from Command line
