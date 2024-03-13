@@ -1,0 +1,14 @@
+Selenium Python Waits
+
+why to use waits in Selenium?
+- All elements in web page may not load at the same time
+- Required for websites using Ajax and Javascript
+- To avoid Elements Not Visible exception from selenium
+
+What are implicit and Explicit waits?
+- In selenium web driver it has 2 types of waits
+- Implicit - Poll the DOM for a specific duration to locate an element 500ms until timeout ex -10 sec
+- Explicit - waits for a certain condition to occur before proceeding with next step
+
+How to use implicit wait and Explicit waits?
+-
