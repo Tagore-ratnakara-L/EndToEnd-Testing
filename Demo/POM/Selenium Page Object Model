@@ -1,0 +1,28 @@
+Selenium Page Object Model (POM)
+
+1. What is POM?
+- It is the process where we create a class for each page of the application
+- This page contains the elements locators for that page and action methods.
+- URL = https://opensource-demo.orangehrmlive.com
+
+2. Why to use POM?
+- POM stands for PAge Object Model.
+- Page Object Model refers to the objects of the web page (section) that out tests is interacting with
+- In POM we create separate class for storing all objects and the actions to be taken on that objects
+- Locators and methods are kept separate from the test scripts.
+- This helps in
+    - Maintenance
+    - Less rework
+    - Better & Understandable code
+    - In Case of changes , fix needs to be done at one place only
+    - Avoids duplication code
+    - Stable and Reusable
+
+3. How to implement POM in selenium python project
+
+4. Practical Hands-On
+
+To run test successfully from CMD terminal we have to import these below before class imports
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__),"..",".."))
