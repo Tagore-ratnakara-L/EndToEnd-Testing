@@ -1,0 +1,19 @@
+Pytest | How to Skip tests
+
+1. How to Skip?
+    @pytest.mark.skip
+
+2. How to Skip with condition (skip)
+    @pytest.mark.skip(reason="")
+
+- run test
+- pytest -v -rxs
+
+3. How to deselect Test?
+    only selected the file or method to run
+    pytest -k <FunctionName> -v
+    ex:- pytest -k test_dem_3
+    runs test_dem_3 method remaining are deselected
+
+@pytest.mark.name
+pytest -m name
