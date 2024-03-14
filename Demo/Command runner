@@ -1,0 +1,9 @@
+How to run from command line
+
+1. python filename
+2. py.test
+3. py.test filename
+4. pytest
+5. pytest filename
+6. pytest -v
+7. python -m pytest
