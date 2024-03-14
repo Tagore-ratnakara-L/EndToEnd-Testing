@@ -1,0 +1,18 @@
+Allure Reports
+Selenium Python
+
+1. What is Allure Reports?
+- Reference websites
+    http://allure.qatools.ru/
+    https://docs.qameta.io/allure
+2. How to install Allure report?
+- Install module by
+    pip install allure-pytest
+
+3. How to generate Allure reports with pytest?
+- To use
+    pytest --alluredir=/tmp/my_allure_results
+    This will generate test recursive reports
+- For HTML report
+    allure serve /tmp/my_allure_results
+    "/tmp/my_allure_results" is the folder where reports kept
