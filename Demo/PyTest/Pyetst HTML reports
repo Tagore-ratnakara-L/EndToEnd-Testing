@@ -1,0 +1,17 @@
+
+Pytest HTML Reports
+Info_website - https://pypl.org/project/pytest-html/
+
+How to create html reports with pytest
+
+install module = pip install pytest-html
+
+- Run test by pytest --html=<filename>.html here file name
+is to the name given to the HTML report generated
+- Run single test and generate report
+    pytest <test_name>.py --html=<filename>.html
+- Navigate to save reports in folder specified
+    --html=./reports/report1.html --self-contained-html
+    this will generate a new folder and create reports in it
+    without --self-contained-html test will generate Assets folder with Css file
+
