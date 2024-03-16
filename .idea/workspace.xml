@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0055194d-ce52-447b-a156-5006c1aa852e" name="Changes" comment="Add files to GitHub">
-      <change afterPath="$PROJECT_DIR$/.idea/AllurePlugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Project_Package_requirements" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Run Jenkins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/allure-report/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/CompleteTestingEndToEnd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CompleteTestingEndToEnd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/PyTest/Allure Reports" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/PyTest/Allure Reports" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +83,18 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Subversion",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="CompleteTestingEndToEnd" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="CompleteTestingEndToEnd" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Sample Projects" />
@@ -259,6 +271,9 @@
       <workItem from="1710412371285" duration="74000" />
       <workItem from="1710427729839" duration="132000" />
       <workItem from="1710439590375" duration="1530000" />
+      <workItem from="1710519461395" duration="740000" />
+      <workItem from="1710583430846" duration="106000" />
+      <workItem from="1710610654994" duration="3196000" />
     </task>
     <task id="LOCAL-00001" summary="Completing 1st Unittest">
       <option name="closed" value="true" />

@@ -16,3 +16,23 @@ Selenium Python
 - For HTML report
     allure serve /tmp/my_allure_results
     "/tmp/my_allure_results" is the folder where reports kept
+- For single shared HTML report
+    allure generate --single-file C:\Users\<Your_file_path>\AllureReports
+
+    Note- don't worry where report got generated it will be generated inside the pwd- Present Working Dir
+    So, kindly choose the path by cd <folder_name/path> to specify current pwd
+
+EXCEPTIONS resolutions:
+     i have faced some exceptions while working on Allure reporting
+     1.Allure not recognized or found by system
+     resolution - Specify allure path along with base interpreter path
+     2.Still issue persisting & not able to generate allure HTML or Single Index.html file
+     resolution - download Allure newly released version in git as .zip file
+                - UnZip the file and navigate to bin where allure bat runner file exists
+                - Copy path it exists add to system and user environments paths also to IDE path
+     3.JAVA_HOME not found or recognized/ defined
+     resolution - Download 'java SDK' from oracle as per system OS linux, Mac, Windows
+                - Run java.exe for Installation
+                - Navigate to java installed 'bin' folder and copy the path
+                - Now add path to system environment variables also user path folders
+                - now you can run and generate reports successfully
