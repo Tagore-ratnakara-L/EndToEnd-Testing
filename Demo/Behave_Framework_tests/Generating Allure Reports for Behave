@@ -1,0 +1,13 @@
+Allure reports Generation
+
+1. Install Package Allure-behave by command
+    pip install allure-behave
+
+2. Run command for report generation
+    behave -f allure_behave.formatter:AllureFormatter -o "<Specify folder name>" featurefilefolder/
+
+3. If you face hurdles in generating allure reports for first time
+    Follow below steps
+    Step1: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+    Step2: irm get.scoop.sh | iex
+    Step3: scoop install allure
