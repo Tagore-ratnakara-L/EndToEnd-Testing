@@ -1,0 +1,88 @@
+POM Project
+Pytest framework
+Reported by Allure
+Git
+Associated with Jenkins
+
+SETUP requirements
+
+Python
+Pycharm IDE
+
+++++++++ Basic Setup +++++++++
+Step1: Install IDE an dopen new Project along with Virtual env
+-----------------------------------------------------------------------
+Step2: Settings > Project > interpreter > add
+        Package - selenium
+-----------------------------------------------------------------------
+Step3: Create 6 folders
+        tests
+        pages
+        locators
+        drivers
+        utils
+        reports
+        screenshots
+-----------------------------------------------------------------------
+Step4: Under drivers folder add driver.exe for browsers
+        Chrome
+        firefox
+-----------------------------------------------------------------------
+Step5: Under tests folder create a new python file (login_test.py)
+-----------------------------------------------------------------------
+Step6: Create a simple login test.
+           run and validate
+-----------------------------------------------------------------------
+Step7: Add pytest package -
+        settings > Project > interpreter > add
+        pytest
+        check Package existence by pytest --version in terminal
+-----------------------------------------------------------------------
+Step8: Create functions (pytest)
+        ''' Take care about naming convention of file '''
+        test_*.py Or *_test.py
+        Methods has been applied
+        test_setup
+        test_login
+        test_logout
+        Add pytest fixture to test_setup as @pytest.fixture(scope="<req>")
+        may be req = session
+                     module
+                     function
+        Run and validate
+-----------------------------------------------------------------------
+Step9: Create class TestLogin():
+       add @pytest.fixture(scope="<req>")
+       req = class
+             self
+       Run and Validate
+-----------------------------------------------------------------------
++++++++++ POM Setup +++++++++++++++++++++++++++++
+
+Step10: Under pages folder create python files to create classes for pages
+-----------------------------------------------------------------------
+Step11: Add the page objects and actions in respective classes
+-----------------------------------------------------------------------
+Step12: Create objects for pages in test script and use the functions.
+        Run and Validate
+        while running if you got any module not found exception
+        do as below
+        for windows cmd 'set' for mac its 'export'
+        as well as for seperator win =';' mac= ':'
+        set PYTHONPATH where module exists
+        set PYTHONPATH=C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd;C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo
+
+-----------------------------------------------------------------------
++++++++++++ POM completed Now refactoring setup ++++++++++++++++
+Step13: In utils folder create utils.py file and add constants
+-----------------------------------------------------------------------
+Step14: Add package pytest-html and to generate and show html reports
+        --html=C:/Users/<folder_path>/<file_name>.html
+        this will be given after command " pytest <test_file>.py "
+        along with report this will generate assets folder and css
+        if we need a single one use below command at end of html folder
+        --self-contained-html
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+
