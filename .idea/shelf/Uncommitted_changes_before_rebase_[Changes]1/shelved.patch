@@ -1,0 +1,258 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0055194d-ce52-447b-a156-5006c1aa852e\" name=\"Changes\" comment=\"Add files to GitHub\">\r\n      <change afterPath=\"$PROJECT_DIR$/Demo/Project_Package_requirements\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Demo/Run Jenkins\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Demo/allure-report/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/CompleteTestingEndToEnd.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/CompleteTestingEndToEnd.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Demo/PyTest/Allure Reports\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Demo/PyTest/Allure Reports\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExportTestResults\" outputFolder=\"$PROJECT_DIR$/Demo/Test_Results\" openResultsInEditor=\"true\" userTempatePath=\"\" />\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Unit Test\" />\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"ProjectErrors\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2dadTTtfQHQzRZTcwNiOHOiN2Uz\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\r\n    \"Python tests.LoginTest_valid.executor\": \"Run\",\r\n    \"Python tests.Python tests for SeleniumUnitTest.MyTestCase.executor\": \"Run\",\r\n    \"Python tests.Python tests for SeleniumUnitTest.MyTestCase.test_skip.executor\": \"Run\",\r\n    \"Python tests.Python tests in Demo.executor\": \"Run\",\r\n    \"Python tests.Python tests in RecordedTest.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in Sample Projects.executor\": \"Run\",\r\n    \"Python tests.Python tests in Selenium UnitTest Demo.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in UnitTestExamples.py.executor\": \"Run\",\r\n    \"Python tests.Python tests in test_sample.py.executor\": \"Run\",\r\n    \"Python tests.UnitTest in Google Saerch.executor\": \"Run\",\r\n    \"Python tests.Unittests in Demo.executor\": \"Profiler\",\r\n    \"Python.ExplicitWait.executor\": \"Run\",\r\n    \"Python.ImplicitWait.executor\": \"Run\",\r\n    \"Python.LoginTest.executor\": \"Run\",\r\n    \"Python.Project1.executor\": \"Run\",\r\n    \"Python.Waits.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"deletionFromPopupRequiresConfirmation\": \"false\",\r\n    \"git-widget-placeholder\": \"origin\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/Prasa/PycharmProjects\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"terminal\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"PyConsoleOptionsProvider\">\r\n    <option name=\"myPythonConsoleState\">\r\n      <console-settings module-name=\"CompleteTestingEndToEnd\" is-module-sdk=\"true\">\r\n        <option name=\"myUseModuleSdk\" value=\"true\" />\r\n        <option name=\"myModuleName\" value=\"CompleteTestingEndToEnd\" />\r\n      </console-settings>\r\n    </option>\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Prasa\\PycharmProjects\\CompleteTestingEndToEnd\\Demo\\Sample Projects\" />\r\n      <recent name=\"C:\\Users\\Prasa\\PycharmProjects\\CompleteTestingEndToEnd\\Demo\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.Waits\">\r\n    <configuration name=\"Waits\" type=\"PythonConfigurationType\" factoryName=\"Python\">\r\n      <module name=\"CompleteTestingEndToEnd\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"SDK_NAME\" value=\"Python 3.12 (CompleteTestingEndToEnd)\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"C:\\Users\\Prasa\\PycharmProjects\\CompleteTestingEndToEnd\\Demo\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Demo/ImplicitWait.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"LoginTest_valid\" type=\"tests\" factoryName=\"Unittests\">\r\n      <module name=\"CompleteTestingEndToEnd\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"C:\\Users\\Prasa\\.virtualenvs\\CompleteTestingEndToEnd\\Scripts\\python.exe\" />\r\n      <option name=\"SDK_NAME\" value=\"Python 3.12 (CompleteTestingEndToEnd)\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"_new_pattern\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;$PROJECT_DIR$/Demo/POM/Tests/LoginTest.py&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PATH&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Python tests for SeleniumUnitTest.MyTestCase\" type=\"tests\" factoryName=\"Autodetect\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"CompleteTestingEndToEnd\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Demo\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;SeleniumUnitTest.MyTestCase&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PYTHON&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Python tests for SeleniumUnitTest.MyTestCase.test_skip\" type=\"tests\" factoryName=\"Autodetect\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"CompleteTestingEndToEnd\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Demo\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;SeleniumUnitTest.MyTestCase.test_skip&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PYTHON&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Python tests in Demo\" type=\"tests\" factoryName=\"Autodetect\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"CompleteTestingEndToEnd\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Demo\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;$PROJECT_DIR$/Demo&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PATH&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"UnitTest in Google Saerch\" type=\"tests\" factoryName=\"Autodetect\">\r\n      <module name=\"CompleteTestingEndToEnd\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Demo/Sample Projects\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;$PROJECT_DIR$/Demo/Sample Projects/Project1.py&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PATH&quot;\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Unittests in Demo\" type=\"tests\" factoryName=\"Unittests\" singleton=\"false\" nameIsGenerated=\"true\">\r\n      <module name=\"CompleteTestingEndToEnd\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <option name=\"SDK_HOME\" value=\"C:\\Users\\Prasa\\.virtualenvs\\CompleteTestingEndToEnd\\Scripts\\python.exe\" />\r\n      <option name=\"SDK_NAME\" value=\"Python 3.12 (CompleteTestingEndToEnd)\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Demo\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <EXTENSION ID=\"PythonCoverageRunConfigurationExtension\" runner=\"coverage.py\" />\r\n      <option name=\"_new_pattern\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_additionalArguments\" value=\"&quot;&quot;\" />\r\n      <option name=\"_new_target\" value=\"&quot;$PROJECT_DIR$/Demo&quot;\" />\r\n      <option name=\"_new_targetType\" value=\"&quot;PATH&quot;\" />\r\n      <method v=\"2\">\r\n        <option name=\"FwBeforeLaunchTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Python.Waits\" />\r\n      <item itemvalue=\"Python tests.LoginTest_valid\" />\r\n      <item itemvalue=\"Python tests.UnitTest in Google Saerch\" />\r\n      <item itemvalue=\"Python tests.Unittests in Demo\" />\r\n      <item itemvalue=\"Python tests.Python tests for SeleniumUnitTest.MyTestCase\" />\r\n      <item itemvalue=\"Python tests.Python tests for SeleniumUnitTest.MyTestCase.test_skip\" />\r\n      <item itemvalue=\"Python tests.Python tests in Demo\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python tests.Python tests in Demo\" />\r\n        <item itemvalue=\"Python tests.Python tests for SeleniumUnitTest.MyTestCase\" />\r\n        <item itemvalue=\"Python tests.Python tests for SeleniumUnitTest.MyTestCase.test_skip\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration>C:\\Users\\Prasa\\AppData\\Roaming\\Subversion</configuration>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0055194d-ce52-447b-a156-5006c1aa852e\" name=\"Changes\" comment=\"\" />\r\n      <created>1710250131468</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1710250131468</updated>\r\n      <workItem from=\"1710250134789\" duration=\"6523000\" />\r\n      <workItem from=\"1710315349167\" duration=\"17884000\" />\r\n      <workItem from=\"1710353357228\" duration=\"614000\" />\r\n      <workItem from=\"1710397936388\" duration=\"5721000\" />\r\n      <workItem from=\"1710403715321\" duration=\"4709000\" />\r\n      <workItem from=\"1710412371285\" duration=\"74000\" />\r\n      <workItem from=\"1710427729839\" duration=\"132000\" />\r\n      <workItem from=\"1710439590375\" duration=\"1530000\" />\r\n      <workItem from=\"1710519461395\" duration=\"740000\" />\r\n      <workItem from=\"1710583430846\" duration=\"106000\" />\r\n      <workItem from=\"1710610654994\" duration=\"3196000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Completing 1st Unittest\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710253078261</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710253078261</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Selenium Unit Test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710263879852</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710263879852</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Generating HTML reports\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710316476643</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710316476643</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"HTML reports With Skip Test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710316752028</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710316752028</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Saving Test results\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710318058527</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710318058527</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Webdriver Waits\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710329825483</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710329825483</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Sample Project\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710332012302</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710332012302</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"POM 1st test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710349710079</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710349710079</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Additional Changes POM CMD\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710351848809</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710351848810</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Katalon Recoded Test\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710351868921</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710351868921</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Pytest Skip Techniques\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710399524787</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710399524787</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Parameterizing PyTests\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710400332162</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710400332162</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Generating Pytest HTML reports\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710401506345</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710401506345</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Generating Allure reports\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710410283462</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710410283462</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"Add files to GitHub\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710440884165</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710440884165</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"16\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"master\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"COLUMN_ID_WIDTH\">\r\n                <map>\r\n                  <entry key=\"Table.Default.Author.ColumnIdWidth\" value=\"101\" />\r\n                  <entry key=\"Table.Default.Date.ColumnIdWidth\" value=\"88\" />\r\n                </map>\r\n              </option>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"Completing 1st Unittest\" />\r\n    <MESSAGE value=\"Selenium Unit Test\" />\r\n    <MESSAGE value=\"Generating HTML reports\" />\r\n    <MESSAGE value=\"HTML reports With Skip Test\" />\r\n    <MESSAGE value=\"Saving Test results\" />\r\n    <MESSAGE value=\"Webdriver Waits\" />\r\n    <MESSAGE value=\"Sample Project\" />\r\n    <MESSAGE value=\"POM 1st test\" />\r\n    <MESSAGE value=\"Additional Changes POM CMD\" />\r\n    <MESSAGE value=\"Katalon Recoded Test\" />\r\n    <MESSAGE value=\"Pytest Skip Techniques\" />\r\n    <MESSAGE value=\"Parameterizing PyTests\" />\r\n    <MESSAGE value=\"Generating Pytest HTML reports\" />\r\n    <MESSAGE value=\"Generating Allure reports\" />\r\n    <MESSAGE value=\"Add files to GitHub\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Add files to GitHub\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/CompleteTestingEndToEnd$Waits.coverage\" NAME=\"Waits Coverage Results\" MODIFIED=\"1710330934616\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"C:\\Users\\Prasa\\PycharmProjects\\CompleteTestingEndToEnd\\Demo\" />\r\n    <SUITE FILE_PATH=\"coverage/CompleteTestingEndToEnd$LoginTest.coverage\" NAME=\"LoginTest Coverage Results\" MODIFIED=\"1710346036566\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Demo/POM/Tests\" />\r\n    <SUITE FILE_PATH=\"coverage/CompleteTestingEndToEnd$ExplicitWait.coverage\" NAME=\"ExplicitWait Coverage Results\" MODIFIED=\"1710329715704\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Demo\" />\r\n    <SUITE FILE_PATH=\"coverage/CompleteTestingEndToEnd$Project1.coverage\" NAME=\"Project1 Coverage Results\" MODIFIED=\"1710330327120\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Demo/Sample Projects\" />\r\n    <SUITE FILE_PATH=\"coverage/CompleteTestingEndToEnd$LoginTest_valid.coverage\" NAME=\"LoginTest_valid Coverage Results\" MODIFIED=\"1710349535051\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"\" />\r\n    <SUITE FILE_PATH=\"coverage/CompleteTestingEndToEnd$ImplicitWait.coverage\" NAME=\"ImplicitWait Coverage Results\" MODIFIED=\"1710328852915\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Demo\" />\r\n    <SUITE FILE_PATH=\"coverage/CompleteTestingEndToEnd$.coverage\" NAME=\" Coverage Results\" MODIFIED=\"1710352662540\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Demo/PyTest\" />\r\n    <SUITE FILE_PATH=\"coverage/CompleteTestingEndToEnd$Unittests_in_Demo.coverage\" NAME=\"Unittests in Demo Coverage Results\" MODIFIED=\"1710317815388\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Demo\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 9761d8e46f21c3f4c9cbc658471c34a91eeca6ac)
++++ b/.idea/workspace.xml	(date 1710697248939)
+@@ -4,15 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="0055194d-ce52-447b-a156-5006c1aa852e" name="Changes" comment="Add files to GitHub">
+-      <change afterPath="$PROJECT_DIR$/Demo/Project_Package_requirements" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Demo/Run Jenkins" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Demo/allure-report/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/CompleteTestingEndToEnd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CompleteTestingEndToEnd.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Demo/PyTest/Allure Reports" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/PyTest/Allure Reports" afterDir="false" />
+-    </list>
++    <list default="true" id="0055194d-ce52-447b-a156-5006c1aa852e" name="Changes" comment="setting and Generating Allure for Behave tests" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -28,6 +20,19 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <excluded-from-favorite>
++      <branch-storage>
++        <map>
++          <entry type="LOCAL">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="master" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </excluded-from-favorite>
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+         <entry key="$PROJECT_DIR$" value="master" />
+@@ -77,16 +82,21 @@
+     "deletionFromPopupRequiresConfirmation": "false",
+     "git-widget-placeholder": "origin",
+     "ignore.virus.scanning.warn.message": "true",
+-    "last_opened_file_path": "C:/Users/Prasa/PycharmProjects",
++    "last_opened_file_path": "C:/Users/Prasa/PycharmProjects/CompleteTestingEndToEnd/Demo/Behave_Framework_tests/reports/rep2",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+     "node.js.selected.package.tslint": "(autodetect)",
+     "nodejs_package_manager_path": "npm",
+-    "settings.editor.selected.configurable": "terminal",
++    "settings.editor.selected.configurable": "preferences.pluginManager",
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
++  <component name="Push.Settings">
++    <force-push-targets>
++      <force-push-target remote-path="main" branch="origin" />
++    </force-push-targets>
++  </component>
+   <component name="PyConsoleOptionsProvider">
+     <option name="myPythonConsoleState">
+       <console-settings module-name="CompleteTestingEndToEnd" is-module-sdk="true">
+@@ -97,6 +107,8 @@
+   </component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Behave_Framework_tests\reports\rep2" />
++      <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Behave_Framework_tests\reports\rep1" />
+       <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Sample Projects" />
+       <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo" />
+     </key>
+@@ -273,7 +285,14 @@
+       <workItem from="1710439590375" duration="1530000" />
+       <workItem from="1710519461395" duration="740000" />
+       <workItem from="1710583430846" duration="106000" />
+-      <workItem from="1710610654994" duration="3196000" />
++      <workItem from="1710610654994" duration="3894000" />
++      <workItem from="1710615041389" duration="39000" />
++      <workItem from="1710651146036" duration="1335000" />
++      <workItem from="1710657987995" duration="239000" />
++      <workItem from="1710662023313" duration="2000" />
++      <workItem from="1710662253710" duration="3000" />
++      <workItem from="1710674920554" duration="2000" />
++      <workItem from="1710682505685" duration="13088000" />
+     </task>
+     <task id="LOCAL-00001" summary="Completing 1st Unittest">
+       <option name="closed" value="true" />
+@@ -395,7 +414,103 @@
+       <option name="project" value="LOCAL" />
+       <updated>1710440884165</updated>
+     </task>
+-    <option name="localTasksCounter" value="16" />
++    <task id="LOCAL-00016" summary="Allure report generation and Issue resolution">
++      <option name="closed" value="true" />
++      <created>1710613911921</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1710613911921</updated>
++    </task>
++    <task id="LOCAL-00017" summary="Adding requirements of Packages">
++      <option name="closed" value="true" />
++      <created>1710614276572</created>
++      <option name="number" value="00017" />
++      <option name="presentableId" value="LOCAL-00017" />
++      <option name="project" value="LOCAL" />
++      <updated>1710614276572</updated>
++    </task>
++    <task id="LOCAL-00018" summary="Adding requirements of Packages for Behave">
++      <option name="closed" value="true" />
++      <created>1710685072239</created>
++      <option name="number" value="00018" />
++      <option name="presentableId" value="LOCAL-00018" />
++      <option name="project" value="LOCAL" />
++      <updated>1710685072239</updated>
++    </task>
++    <task id="LOCAL-00019" summary="gherkin samplecode feature">
++      <option name="closed" value="true" />
++      <created>1710685135401</created>
++      <option name="number" value="00019" />
++      <option name="presentableId" value="LOCAL-00019" />
++      <option name="project" value="LOCAL" />
++      <updated>1710685135401</updated>
++    </task>
++    <task id="LOCAL-00020" summary="Steps folder creation and 1st stepdef file">
++      <option name="closed" value="true" />
++      <created>1710685334157</created>
++      <option name="number" value="00020" />
++      <option name="presentableId" value="LOCAL-00020" />
++      <option name="project" value="LOCAL" />
++      <updated>1710685334157</updated>
++    </task>
++    <task id="LOCAL-00021" summary="login functionality feature file">
++      <option name="closed" value="true" />
++      <created>1710685368388</created>
++      <option name="number" value="00021" />
++      <option name="presentableId" value="LOCAL-00021" />
++      <option name="project" value="LOCAL" />
++      <updated>1710685368388</updated>
++    </task>
++    <task id="LOCAL-00022" summary="crete steps file for loginfunc file 2nd Steps file">
++      <option name="closed" value="true" />
++      <created>1710685413756</created>
++      <option name="number" value="00022" />
++      <option name="presentableId" value="LOCAL-00022" />
++      <option name="project" value="LOCAL" />
++      <updated>1710685413756</updated>
++    </task>
++    <task id="LOCAL-00023" summary="Using ScenarioOutline  in feature along step file">
++      <option name="closed" value="true" />
++      <created>1710690543285</created>
++      <option name="number" value="00023" />
++      <option name="presentableId" value="LOCAL-00023" />
++      <option name="project" value="LOCAL" />
++      <updated>1710690543285</updated>
++    </task>
++    <task id="LOCAL-00024" summary="Using StepTable in feature along step file">
++      <option name="closed" value="true" />
++      <created>1710690567164</created>
++      <option name="number" value="00024" />
++      <option name="presentableId" value="LOCAL-00024" />
++      <option name="project" value="LOCAL" />
++      <updated>1710690567164</updated>
++    </task>
++    <task id="LOCAL-00025" summary="Using Tags in feature">
++      <option name="closed" value="true" />
++      <created>1710691500852</created>
++      <option name="number" value="00025" />
++      <option name="presentableId" value="LOCAL-00025" />
++      <option name="project" value="LOCAL" />
++      <updated>1710691500852</updated>
++    </task>
++    <task id="LOCAL-00026" summary="Background Keyword usage in feature file">
++      <option name="closed" value="true" />
++      <created>1710696645341</created>
++      <option name="number" value="00026" />
++      <option name="presentableId" value="LOCAL-00026" />
++      <option name="project" value="LOCAL" />
++      <updated>1710696645341</updated>
++    </task>
++    <task id="LOCAL-00027" summary="setting and Generating Allure for Behave tests">
++      <option name="closed" value="true" />
++      <created>1710696682485</created>
++      <option name="number" value="00027" />
++      <option name="presentableId" value="LOCAL-00027" />
++      <option name="project" value="LOCAL" />
++      <updated>1710696682485</updated>
++    </task>
++    <option name="localTasksCounter" value="28" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -409,7 +524,17 @@
+             <list>
+               <RecentGroup>
+                 <option name="FILTER_VALUES">
++                  <option value="origin/origin" />
++                </option>
++              </RecentGroup>
++              <RecentGroup>
++                <option name="FILTER_VALUES">
+                   <option value="master" />
++                </option>
++              </RecentGroup>
++              <RecentGroup>
++                <option name="FILTER_VALUES">
++                  <option value="HEAD" />
+                 </option>
+               </RecentGroup>
+             </list>
+@@ -433,7 +558,7 @@
+                   <entry key="branch">
+                     <value>
+                       <list>
+-                        <option value="master" />
++                        <option value="origin/master" />
+                       </list>
+                     </value>
+                   </entry>
+@@ -447,8 +572,6 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+-    <MESSAGE value="Completing 1st Unittest" />
+-    <MESSAGE value="Selenium Unit Test" />
+     <MESSAGE value="Generating HTML reports" />
+     <MESSAGE value="HTML reports With Skip Test" />
+     <MESSAGE value="Saving Test results" />
+@@ -462,7 +585,19 @@
+     <MESSAGE value="Generating Pytest HTML reports" />
+     <MESSAGE value="Generating Allure reports" />
+     <MESSAGE value="Add files to GitHub" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Add files to GitHub" />
++    <MESSAGE value="Allure report generation and Issue resolution" />
++    <MESSAGE value="Adding requirements of Packages" />
++    <MESSAGE value="Adding requirements of Packages for Behave" />
++    <MESSAGE value="gherkin samplecode feature" />
++    <MESSAGE value="Steps folder creation and 1st stepdef file" />
++    <MESSAGE value="login functionality feature file" />
++    <MESSAGE value="crete steps file for loginfunc file 2nd Steps file" />
++    <MESSAGE value="Using ScenarioOutline  in feature along step file" />
++    <MESSAGE value="Using StepTable in feature along step file" />
++    <MESSAGE value="Using Tags in feature" />
++    <MESSAGE value="Background Keyword usage in feature file" />
++    <MESSAGE value="setting and Generating Allure for Behave tests" />
++    <option name="LAST_COMMIT_MESSAGE" value="setting and Generating Allure for Behave tests" />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+     <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$Waits.coverage" NAME="Waits Coverage Results" MODIFIED="1710330934616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo" />

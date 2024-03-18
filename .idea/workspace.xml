@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0055194d-ce52-447b-a156-5006c1aa852e" name="Changes" comment="Add files to GitHub">
-      <change afterPath="$PROJECT_DIR$/Demo/Project_Package_requirements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Run Jenkins" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/allure-report/index.html" afterDir="false" />
+    <list default="true" id="0055194d-ce52-447b-a156-5006c1aa852e" name="Changes" comment="setting and Generating Allure for Behave tests">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17-03-2024_23_07_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17-03-2024_23_07__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/Locators/locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/Project1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/drivers/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/drivers/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/pages/homePage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/pages/loginPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/reports/assets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/reports/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/reports/report1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/tests/login_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/tests/validating_loginhomepage_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/utils/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/CompleteTestingEndToEnd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CompleteTestingEndToEnd.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/PyTest/Allure Reports" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/PyTest/Allure Reports" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,19 +85,20 @@
     "Python.LoginTest.executor": "Run",
     "Python.Project1.executor": "Run",
     "Python.Waits.executor": "Run",
+    "Python.login_test.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "origin",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Prasa/PycharmProjects",
+    "last_opened_file_path": "C:/Users/Prasa/PycharmProjects/CompleteTestingEndToEnd",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -97,11 +112,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd" />
       <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Sample Projects" />
       <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Waits">
+  <component name="RunManager">
     <configuration name="Waits" type="PythonConfigurationType" factoryName="Python">
       <module name="CompleteTestingEndToEnd" />
       <option name="ENV_FILES" value="" />
@@ -274,6 +290,7 @@
       <workItem from="1710519461395" duration="740000" />
       <workItem from="1710583430846" duration="106000" />
       <workItem from="1710610654994" duration="3196000" />
+      <workItem from="1710764135168" duration="12692000" />
     </task>
     <task id="LOCAL-00001" summary="Completing 1st Unittest">
       <option name="closed" value="true" />
@@ -398,6 +415,9 @@
     <option name="localTasksCounter" value="16" />
     <servers />
   </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="startingDirectory" value="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo" />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
@@ -465,7 +485,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="Add files to GitHub" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$Waits.coverage" NAME="Waits Coverage Results" MODIFIED="1710330934616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo" />
+    <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$login_test.coverage" NAME="login_test Coverage Results" MODIFIED="1710765652431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/Automation_frameworks/tests" />
+    <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$Waits.coverage" NAME="Waits Coverage Results" MODIFIED="1710765645229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo" />
     <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$LoginTest.coverage" NAME="LoginTest Coverage Results" MODIFIED="1710346036566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/POM/Tests" />
     <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$ExplicitWait.coverage" NAME="ExplicitWait Coverage Results" MODIFIED="1710329715704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
     <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$Project1.coverage" NAME="Project1 Coverage Results" MODIFIED="1710330327120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/Sample Projects" />
