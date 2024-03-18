@@ -3,7 +3,8 @@ Pytest framework
 Reported by Allure
 Git
 Associated with Jenkins
-
+NOTE: anywhere <__> have been mentioned its regarding file_name/folder_name
+      not to include < or > symbols
 SETUP requirements
 
 Python
@@ -83,6 +84,51 @@ Step14: Add package pytest-html and to generate and show html reports
         if we need a single one use below command at end of html folder
         --self-contained-html
 -----------------------------------------------------------------------
+Step15: Add conftest.py
+        Put the setup teardown here
+        Remove setup and yield test class
+        '''''''''''''''''''''''''''''''''''
+        import pytest
+        from selenium import webdriver
+
+
+        @pytest.fixture(scope="class")
+        def test_setup(request):
+            driver = webdriver.Chrome()
+            driver.implicitly_wait(10)
+            driver.maximize_window()
+            request.cls.driver = driver
+            yield
+            driver.close()
+            driver.quit()
+            print('Test Completed')
+            ''''''''''''''''''''''''''''''''''''
+
+
+    add pytest fixture on test classes
+    @pytest.mark.usefixtures("test_setup")
+    now Run and validate
+
+    also change self parameter to cls in every method of importing classes.
+    else it will throw error- AttributeError: cls not available in module-scoped context
 -----------------------------------------------------------------------
+Step16: utilizing Config.py for multiple browsers calling from command line
+
+    def pytest_addoption(parser):
+        parser.addoption("--browser", action="store", default="chrome",
+        help="Type in browser name e.g.chrome OR firefox ")
+
+    def get_browser(request):
+        return request.config.getoption("--browser")
+
+    in fixture method add this code
+     browser = get_browser(request)
+     if browser == 'chrome':
+        driver = webdriver.Chrome()
+     elif browser == 'firefox':
+        driver = webdriver.Firefox()
+
+     Run tests and validate them by cmd
+     pytest file_test.py --browser=<specify_browser>
 -----------------------------------------------------------------------
 

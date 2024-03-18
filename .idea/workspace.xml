@@ -4,28 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0055194d-ce52-447b-a156-5006c1aa852e" name="Changes" comment="setting and Generating Allure for Behave tests">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17-03-2024_23_07_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17-03-2024_23_07__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/Locators/locators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/Project1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/drivers/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/pages/homePage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/pages/loginPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/reports/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/reports/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/reports/report1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/tests/login_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/tests/validating_loginhomepage_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/utils/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CompleteTestingEndToEnd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CompleteTestingEndToEnd.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0055194d-ce52-447b-a156-5006c1aa852e" name="Changes" comment="generating HTML reports for POM test">
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/tests/conftest2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/tests/conftest_fixture_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Automation_frameworks/Project1" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/Project1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Automation_frameworks/tests/validating_loginhomepage_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/tests/validating_loginhomepage_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,13 +79,13 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "origin",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Prasa/PycharmProjects/CompleteTestingEndToEnd",
+    "last_opened_file_path": "C:/Users/Prasa/PycharmProjects/CompleteTestingEndToEnd/Demo/Automation_frameworks/tests",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable",
+    "settings.editor.selected.configurable": "inlay.hints",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -112,6 +99,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Automation_frameworks\tests" />
       <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd" />
       <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Sample Projects" />
       <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo" />
@@ -290,7 +278,7 @@
       <workItem from="1710519461395" duration="740000" />
       <workItem from="1710583430846" duration="106000" />
       <workItem from="1710610654994" duration="3196000" />
-      <workItem from="1710764135168" duration="12692000" />
+      <workItem from="1710764135168" duration="18989000" />
     </task>
     <task id="LOCAL-00001" summary="Completing 1st Unittest">
       <option name="closed" value="true" />
@@ -412,7 +400,63 @@
       <option name="project" value="LOCAL" />
       <updated>1710440884165</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Starting New project Pytest framework">
+      <option name="closed" value="true" />
+      <created>1710783249945</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710783249945</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add drivers to drivers folder">
+      <option name="closed" value="true" />
+      <created>1710783285610</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710783285610</updated>
+    </task>
+    <task id="LOCAL-00018" summary="miscellaneous">
+      <option name="closed" value="true" />
+      <created>1710783314943</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710783314943</updated>
+    </task>
+    <task id="LOCAL-00019" summary="first login test page with fixture">
+      <option name="closed" value="true" />
+      <created>1710783373186</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1710783373186</updated>
+    </task>
+    <task id="LOCAL-00020" summary="POM using pytest 1st case">
+      <option name="closed" value="true" />
+      <created>1710783419513</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1710783419513</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Add utils for common inputs">
+      <option name="closed" value="true" />
+      <created>1710783451037</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1710783451037</updated>
+    </task>
+    <task id="LOCAL-00022" summary="generating HTML reports for POM test">
+      <option name="closed" value="true" />
+      <created>1710783489849</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1710783489849</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -482,7 +526,14 @@
     <MESSAGE value="Generating Pytest HTML reports" />
     <MESSAGE value="Generating Allure reports" />
     <MESSAGE value="Add files to GitHub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add files to GitHub" />
+    <MESSAGE value="Starting New project Pytest framework" />
+    <MESSAGE value="Add drivers to drivers folder" />
+    <MESSAGE value="miscellaneous" />
+    <MESSAGE value="first login test page with fixture" />
+    <MESSAGE value="POM using pytest 1st case" />
+    <MESSAGE value="Add utils for common inputs" />
+    <MESSAGE value="generating HTML reports for POM test" />
+    <option name="LAST_COMMIT_MESSAGE" value="generating HTML reports for POM test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$login_test.coverage" NAME="login_test Coverage Results" MODIFIED="1710765652431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/Automation_frameworks/tests" />

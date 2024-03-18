@@ -7,21 +7,11 @@ from Demo.Automation_frameworks.pages.homePage import HomePage
 from Demo.Automation_frameworks.utils import utils as utils
 
 
-# @pytest.mark.usefixtures("test_setUp")
+@pytest.mark.usefixtures("test_setup")
 class TestLogin:
-    @pytest.fixture(scope="class")
-    def test_setUp(self) -> None:
-        global driver
-        driver = webdriver.Chrome()
-        driver.implicitly_wait(10)
-        driver.maximize_window()
-        yield
-        driver.close()
-        driver.quit()
-        print('Test Completed')
 
-    def test_login(self, test_setUp):
-        # driver = self.driver
+    def test_login(cls):
+        driver = cls.driver
         driver.get(utils.URL)
         time.sleep(2)
         login = LoginPage(driver)
@@ -32,8 +22,8 @@ class TestLogin:
         login.click_login_button()
         time.sleep(2)
 
-    def test_logout(self, test_setUp):
-        # driver = self.driver
+    def test_logout(cls):
+        driver = cls.driver
         homepage = HomePage(driver)
         homepage.click_on_dropdown()
         time.sleep(2)
