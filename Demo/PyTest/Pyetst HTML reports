@@ -1,5 +1,8 @@
 
 Pytest HTML Reports
+NOTE: anywhere <__> have been mentioned its regarding file_name/folder_name
+      not to include < or > symbols
+
 Info_website - https://pypl.org/project/pytest-html/
 
 How to create html reports with pytest
