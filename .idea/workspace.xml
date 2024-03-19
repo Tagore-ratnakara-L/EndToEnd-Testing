@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0055194d-ce52-447b-a156-5006c1aa852e" name="Changes" comment="Realtime testing using robot">
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Login_handlings.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-9.png" afterDir="false" />
+    <list default="true" id="0055194d-ce52-447b-a156-5006c1aa852e" name="Changes" comment="Login page elements testing basic webdriver tests">
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Handling_windows_tabs.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-11.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Realtest_begins.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Realtest_begins.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Resource.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Resource.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/report.html" afterDir="false" />
@@ -288,7 +283,7 @@
       <workItem from="1710610654994" duration="3196000" />
       <workItem from="1710764135168" duration="19514000" />
       <workItem from="1710841772735" duration="6367000" />
-      <workItem from="1710848197672" duration="9827000" />
+      <workItem from="1710848197672" duration="12045000" />
     </task>
     <task id="LOCAL-00001" summary="Completing 1st Unittest">
       <option name="closed" value="true" />
@@ -530,7 +525,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710849753184</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Realtime testing using robot complete">
+      <option name="closed" value="true" />
+      <created>1710858590441</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1710858590442</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Login page elements testing basic webdriver tests">
+      <option name="closed" value="true" />
+      <created>1710858623013</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1710858623013</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -585,8 +596,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Webdriver Waits" />
-    <MESSAGE value="Sample Project" />
     <MESSAGE value="POM 1st test" />
     <MESSAGE value="Additional Changes POM CMD" />
     <MESSAGE value="Katalon Recoded Test" />
@@ -610,7 +619,9 @@
     <MESSAGE value="Getting Logs by 1st run" />
     <MESSAGE value="Create resource and Experimenting with resource" />
     <MESSAGE value="Realtime testing using robot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Realtime testing using robot" />
+    <MESSAGE value="Realtime testing using robot complete" />
+    <MESSAGE value="Login page elements testing basic webdriver tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login page elements testing basic webdriver tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$login_test.coverage" NAME="login_test Coverage Results" MODIFIED="1710765652431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/Automation_frameworks/tests" />
