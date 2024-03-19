@@ -1,0 +1,23 @@
+For beginning of script
+Must Give Tab for indentation to identify which is keyword and which is driven by test
+Step1: start with *** Settings ***
+        for importing settings and libraries
+        Library    SeleniumLibrary
+
+Step2: 2nd write test cases under
+        *** Test Cases ***
+        so that they wont get mixed and understand by robot
+
+Step3: Write test execution under this
+        *** Keywords ***
+        for initialization of webdriver instance
+        Create Webdriver    Chrome/Firefox
+
+        For navigating to page
+        Go To    https://rahulshettyacademy.com/loginpagePractise/
+
+        Robot framework only supports 3 types of locators
+            ID , Xpath and CSS_selector
+        locators are driven and assigned like this
+        Input Text    xpath://input[@id='username']    rahulshettyacademy
+
