@@ -1,0 +1,21 @@
+Robot Framework setup and configuration
+
+NOTE: make sure you have installed python and integrated with IDE also
+      Path setup has done for scripts and python folder in environment variables
+
+1. Install Robot Framework
+    pip install robotframework
+
+2. Install Selenium Library
+    pip install - upgrade robotframework-seleniumlibrary
+
+3. Add robot extension to pycharm IDE
+    its a plugin "Hyper robot framework" it identifies and highlighted syntax's
+
+4. Create file with .robot extension
+
+5. Selenium is an external library so for any documentation required go to website
+    robotframework.org/SeleniumLibrary/SeleniumLibrary.html
+6. Also for builtin library go to
+    https://robotframework.org/robotframework/latest/libraries/BuiltIn.html
+
