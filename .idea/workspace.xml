@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0055194d-ce52-447b-a156-5006c1aa852e" name="Changes" comment="Refactoring with Note">
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/Execution_of_framework" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/Intro&amp;setup_requirements_for_robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/Keywords_for_robot_framework.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/Requirements_for_framework" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/1stSampletest.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Declaring_global_variables.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Experimenting_file.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Realtest_begins.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Resource.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/geckodriver-1.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/log.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/output.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-1.png" afterDir="false" />
+    <list default="true" id="0055194d-ce52-447b-a156-5006c1aa852e" name="Changes" comment="Realtime testing using robot">
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Login_handlings.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Realtest_begins.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Realtest_begins.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Resource.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Resource.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,42 +60,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.LoginTest_valid.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for SeleniumUnitTest.MyTestCase.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for SeleniumUnitTest.MyTestCase.test_skip.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in Demo.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in RecordedTest.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in Sample Projects.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in Selenium UnitTest Demo.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in UnitTestExamples.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_sample.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.UnitTest in Google Saerch.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Unittests in Demo.executor&quot;: &quot;Profiler&quot;,
-    &quot;Python.ExplicitWait.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ImplicitWait.executor&quot;: &quot;Run&quot;,
-    &quot;Python.LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Project1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Waits.executor&quot;: &quot;Run&quot;,
-    &quot;Python.login_test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Prasa/PycharmProjects/CompleteTestingEndToEnd/Demo/Robot_frameworks&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.LoginTest_valid.executor": "Run",
+    "Python tests.Python tests for SeleniumUnitTest.MyTestCase.executor": "Run",
+    "Python tests.Python tests for SeleniumUnitTest.MyTestCase.test_skip.executor": "Run",
+    "Python tests.Python tests in Demo.executor": "Run",
+    "Python tests.Python tests in RecordedTest.py.executor": "Run",
+    "Python tests.Python tests in Sample Projects.executor": "Run",
+    "Python tests.Python tests in Selenium UnitTest Demo.py.executor": "Run",
+    "Python tests.Python tests in UnitTestExamples.py.executor": "Run",
+    "Python tests.Python tests in test_sample.py.executor": "Run",
+    "Python tests.UnitTest in Google Saerch.executor": "Run",
+    "Python tests.Unittests in Demo.executor": "Profiler",
+    "Python.ExplicitWait.executor": "Run",
+    "Python.ImplicitWait.executor": "Run",
+    "Python.LoginTest.executor": "Run",
+    "Python.Project1.executor": "Run",
+    "Python.Waits.executor": "Run",
+    "Python.login_test.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Prasa/PycharmProjects/CompleteTestingEndToEnd/Demo/Robot_frameworks",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="CompleteTestingEndToEnd" is-module-sdk="true">
@@ -288,7 +288,7 @@
       <workItem from="1710610654994" duration="3196000" />
       <workItem from="1710764135168" duration="19514000" />
       <workItem from="1710841772735" duration="6367000" />
-      <workItem from="1710848197672" duration="1193000" />
+      <workItem from="1710848197672" duration="9827000" />
     </task>
     <task id="LOCAL-00001" summary="Completing 1st Unittest">
       <option name="closed" value="true" />
@@ -482,7 +482,55 @@
       <option name="project" value="LOCAL" />
       <updated>1710789602313</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Getting Started with Robot Frameworks">
+      <option name="closed" value="true" />
+      <created>1710849530828</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710849530828</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add requirements and 1st test on robot">
+      <option name="closed" value="true" />
+      <created>1710849583178</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1710849583178</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Declaring Globals in variable">
+      <option name="closed" value="true" />
+      <created>1710849605711</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710849605711</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Getting Logs by 1st run">
+      <option name="closed" value="true" />
+      <created>1710849702999</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1710849702999</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Create resource and Experimenting with resource">
+      <option name="closed" value="true" />
+      <created>1710849735719</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1710849735719</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Realtime testing using robot">
+      <option name="closed" value="true" />
+      <created>1710849753184</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1710849753184</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -537,11 +585,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Completing 1st Unittest" />
-    <MESSAGE value="Selenium Unit Test" />
-    <MESSAGE value="Generating HTML reports" />
-    <MESSAGE value="HTML reports With Skip Test" />
-    <MESSAGE value="Saving Test results" />
     <MESSAGE value="Webdriver Waits" />
     <MESSAGE value="Sample Project" />
     <MESSAGE value="POM 1st test" />
@@ -561,7 +604,13 @@
     <MESSAGE value="generating HTML reports for POM test" />
     <MESSAGE value="Add config.py file and parameterizing of calling browsers" />
     <MESSAGE value="Refactoring with Note" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring with Note" />
+    <MESSAGE value="Getting Started with Robot Frameworks" />
+    <MESSAGE value="Add requirements and 1st test on robot" />
+    <MESSAGE value="Declaring Globals in variable" />
+    <MESSAGE value="Getting Logs by 1st run" />
+    <MESSAGE value="Create resource and Experimenting with resource" />
+    <MESSAGE value="Realtime testing using robot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Realtime testing using robot" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$login_test.coverage" NAME="login_test Coverage Results" MODIFIED="1710765652431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/Automation_frameworks/tests" />

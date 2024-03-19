@@ -13,6 +13,7 @@ ${valid_password}        learning
 ${url}            https://rahulshettyacademy.com/loginpagePractise/
 
 
+
 *** Keywords ***
 open the browser with Mortgage payment url
     Create Webdriver    Chrome
