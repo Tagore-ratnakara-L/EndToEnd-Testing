@@ -6,6 +6,7 @@ Feature: Feature: Verify login page test cases
    When Validating with below params
     | userName | password |
     | Admin    | admin123 |
+
    Then Verify login Home status is successful or not
 
 #     | Admin    | asdf*123 |
