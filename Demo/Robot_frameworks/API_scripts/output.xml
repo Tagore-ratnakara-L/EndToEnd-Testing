@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.0 on win32)" generated="2024-04-03T22:01:46.243952" rpa="false" schemaversion="5">
+<suite id="s1" name="1St Api Test" source="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Robot_frameworks\API_scripts\1st_api_test.robot">
+<test id="s1-t1" name="Play around with dictionary" line="5">
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2024-04-03T22:01:46.340690" level="INFO">&amp;{data} = { name=rahulshetty | course=robot | website=rahulshettyacademy.com }</msg>
+<var>&amp;{data}</var>
+<arg>name=rahulshetty</arg>
+<arg>course=robot</arg>
+<arg>website=rahulshettyacademy.com</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2024-04-03T22:01:46.338401" elapsed="0.002289"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-03T22:01:46.343272" level="INFO">{'name': 'rahulshetty', 'course': 'robot', 'website': 'rahulshettyacademy.com'}</msg>
+<arg>${data}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-03T22:01:46.343272" elapsed="0.000000"/>
+</kw>
+<kw name="Dictionary Should Contain Key" owner="Collections">
+<msg time="2024-04-03T22:01:46.344447" level="INFO">False</msg>
+<arg>${data}</arg>
+<arg>name</arg>
+<doc>Fails if ``key`` is not found from ``dictionary``.</doc>
+<status status="PASS" start="2024-04-03T22:01:46.344447" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-03T22:01:46.345595" level="INFO">rahulshetty</msg>
+<arg>${data}[name]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-03T22:01:46.345595" elapsed="0.000000"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2024-04-03T22:01:46.346850" level="INFO">${url} = rahulshettyacademy.com</msg>
+<var>${url}</var>
+<arg>${data}</arg>
+<arg>website</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2024-04-03T22:01:46.346850" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-04-03T22:01:46.348079" level="INFO">rahulshettyacademy.com</msg>
+<arg>${url}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-04-03T22:01:46.348079" elapsed="0.001129"/>
+</kw>
+<status status="PASS" start="2024-04-03T22:01:46.337065" elapsed="0.013281"/>
+</test>
+<status status="PASS" start="2024-04-03T22:01:46.248466" elapsed="0.104421"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="1St Api Test">1St Api Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
