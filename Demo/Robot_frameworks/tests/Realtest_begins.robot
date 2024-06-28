@@ -13,22 +13,22 @@ ${shop_page_load}        css:.nav-link.btn.btn-primary
 ${login_button}        xpath://input[@id='signInBtn']
 
 *** Test Cases ***
-#Validate UnSuccessful Login
-#    Fill the login Form    ${user_name}    ${invalid_password}
-#    wait until Element is located in the page    ${Error_message_Login}
-#    verify error message is correct  
+Validate UnSuccessful Login
+    Fill the login Form    ${user_name}    ${invalid_password}
+    wait until Element is located in the page    ${Error_message_Login}
+    verify error message is correct
 Validate Cards display in the Shopping Page
     Fill the login Form    ${user_name}    ${valid_password}
     wait until Element is located in the page    ${shop_page_load}
     Verify Card titles in the Shop page
     Select the Cart    Samsung Note 8
-    Fill the Login Details and select the User option
+#    Fill the Login Details and select the User option
 
 *** Keywords ***
 Fill the login Form
     [Arguments]    ${username}    ${password}
-    Input Text        xpath://input[@id='username']    ${username}
-    Input Password    xpath://input[@id='password']    ${password}
+    Input Text        username    ${username}
+    Input Password    password    ${password}
     Click Button      ${login_button}
 
 wait until Element is located in the page
@@ -60,8 +60,8 @@ Select the Cart
 
 Fill the Login Details and select the User option
     
-    Input Text    xpath://input[@id='username']    rahulshettyacademy
-    Input Password    xpath://input[@id='password']    learning
+    Input Text    username    rahulshettyacademy
+    Input Password    password    learning
     Click Element    css:input[value='user']
     
     
