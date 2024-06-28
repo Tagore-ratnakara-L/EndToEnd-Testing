@@ -1,0 +1,7 @@
+datasources:2d9686499c9ba43dc11e91c3a5f3b8f0c4e5d2d3
+commandlineoptions:65f95c924ba97541f47949701c4e3c51192a5b43
+suitesfrom:no-suites-from-option
+file:5cf4fb43c02380514b2067556ad167eebb5cf690
+--test POM test file.Validate Cards display in the Shopping Page
+--test POM test file.Validate UnSuccessful Login
+--test POM test file.Select the Form and navigate to the Child window

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.0 on win32)" generated="2024-03-24T18:24:54.279655" rpa="false" schemaversion="5">
+<suite id="s1" name="POM test file" source="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Robot_frameworks\tests\POM_test_file.robot">
+<test id="s1-t1" name="Validate UnSuccessful Login" line="27">
+<kw name="open the browser with given url" owner="Generic" type="SETUP">
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:24:54.955340" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<arg>Chrome</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="PASS" start="2024-03-24T18:24:54.955340" elapsed="5.825040"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:25:00.784355" level="INFO">Opening url 'https://rahulshettyacademy.com/loginpagePractise/'</msg>
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-03-24T18:25:00.783387" elapsed="0.933860"/>
+</kw>
+<status status="PASS" start="2024-03-24T18:24:54.953192" elapsed="6.764055"/>
+</kw>
+<kw name="Fill the Login Form" owner="LandingPage">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:25:01.722246" level="INFO">Typing text 'rahulshettyacademy' into text field 'username'.</msg>
+<arg>username</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-24T18:25:01.720245" elapsed="0.853655"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:25:02.574901" level="INFO">Typing password into text field 'password'.</msg>
+<msg time="2024-03-24T18:25:02.694174" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>password</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-24T18:25:02.573900" elapsed="0.410113"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:25:02.984013" level="INFO">Clicking button 'signInBtn'.</msg>
+<arg>signInBtn</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-24T18:25:02.984013" elapsed="0.165971"/>
+</kw>
+<arg>${user_name}</arg>
+<arg>${invalid_password}</arg>
+<status status="PASS" start="2024-03-24T18:25:01.719245" elapsed="1.430739"/>
+</kw>
+<kw name="wait until Element is located in the page" owner="LandingPage">
+<kw name="wait until Element passed is located on the page" owner="Generic">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${PageLocator}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-03-24T18:25:03.154091" elapsed="2.120471"/>
+</kw>
+<arg>${Error_message_Login}</arg>
+<status status="PASS" start="2024-03-24T18:25:03.152075" elapsed="2.122487"/>
+</kw>
+<status status="PASS" start="2024-03-24T18:25:03.151087" elapsed="2.123475"/>
+</kw>
+<kw name="verify error message is correct" owner="LandingPage">
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:25:05.279757" level="INFO">Verifying element 'css:.alert.alert-danger.col-md-12' contains exact text 'Incorrect username/password.'.</msg>
+<arg>${Error_message_Login}</arg>
+<arg>Incorrect username/password.</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2024-03-24T18:25:05.278802" elapsed="0.111175"/>
+</kw>
+<status status="PASS" start="2024-03-24T18:25:05.275656" elapsed="0.114772"/>
+</kw>
+<kw name="Close Browser session" owner="Generic" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-03-24T18:25:05.391650" elapsed="4.705057"/>
+</kw>
+<status status="PASS" start="2024-03-24T18:25:05.390428" elapsed="4.706279"/>
+</kw>
+<status status="PASS" start="2024-03-24T18:24:54.950999" elapsed="15.145708"/>
+</test>
+<doc>To validate the login form</doc>
+<status status="PASS" start="2024-03-24T18:24:54.336910" elapsed="15.760961"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="POM test file">POM test file</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

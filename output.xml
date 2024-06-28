@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.0 on win32)" generated="2024-04-03T21:58:28.718026" rpa="false" schemaversion="5">
+<suite id="s1" name="CompleteTestingEndToEnd" source="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd">
+<suite id="s1-s1" name="Demo" source="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo">
+<suite id="s1-s1-s1" name="Robot frameworks" source="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Robot_frameworks">
+<suite id="s1-s1-s1-s1" name="Tests" source="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Robot_frameworks\tests">
+<suite id="s1-s1-s1-s1-s1" name="POM test file" source="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Robot_frameworks\tests\POM_test_file.robot">
+<test id="s1-s1-s1-s1-s1-t1" name="Select the Form and navigate to the Child window" line="43">
+<kw name="drive url with given customized browser" owner="Generic" type="SETUP">
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2024-04-03T21:58:29.726355" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<arg>${browser_name}</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="PASS" start="2024-04-03T21:58:29.725179" elapsed="7.996911"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-04-03T21:58:37.723161" level="INFO">Opening url 'https://rahulshettyacademy.com/loginpagePractise/'</msg>
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-04-03T21:58:37.722143" elapsed="1.041288"/>
+</kw>
+<status status="PASS" start="2024-04-03T21:58:29.718541" elapsed="9.044890"/>
+</kw>
+<kw name="Fill the Login details and Login Form" owner="LandingPage">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-04-03T21:58:38.766825" level="INFO">Typing text 'rahulshettyacademy' into text field 'username'.</msg>
+<arg>username</arg>
+<arg>rahulshettyacademy</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-03T21:58:38.765675" elapsed="0.302084"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-04-03T21:58:39.068887" level="INFO">Typing password into text field 'password'.</msg>
+<msg time="2024-04-03T21:58:39.154305" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>password</arg>
+<arg>learning</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-03T21:58:39.068887" elapsed="0.198738"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-03T21:58:39.268634" level="INFO">Clicking element 'css:input[value='user']'.</msg>
+<arg>css:input[value='user']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-03T21:58:39.267625" elapsed="0.085458"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-03T21:58:41.353815" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-03T21:58:39.353083" elapsed="2.000732"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>css:.modal-body</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-04-03T21:58:41.354950" elapsed="0.497203"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-03T21:58:41.854351" level="INFO">Clicking element 'okayBtn'.</msg>
+<arg>okayBtn</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-03T21:58:41.853029" elapsed="0.245198"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-03T21:58:44.099359" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-03T21:58:42.098227" elapsed="2.001132"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-04-03T21:58:44.100621" level="INFO">Clicking element 'xpath://select[@data-style='btn-info']'.</msg>
+<arg>xpath://select[@data-style='btn-info']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-03T21:58:44.100621" elapsed="0.417086"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2024-04-03T21:58:44.519715" level="INFO">Selecting options from selection list 'css:select.form-control' by value teach.</msg>
+<arg>css:select.form-control</arg>
+<arg>teach</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2024-04-03T21:58:44.518708" elapsed="0.205084"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-04-03T21:58:46.725321" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-04-03T21:58:44.723792" elapsed="2.002566"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2024-04-03T21:58:46.733376" level="INFO">Selecting checkbox 'terms'.</msg>
+<arg>terms</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-04-03T21:58:46.728715" elapsed="0.175239"/>
+</kw>
+<kw name="Checkbox Should Be Selected" owner="SeleniumLibrary">
+<msg time="2024-04-03T21:58:46.905447" level="INFO">Verifying checkbox 'terms' is selected.</msg>
+<arg>terms</arg>
+<doc>Verifies checkbox ``locator`` is selected/checked.</doc>
+<status status="PASS" start="2024-04-03T21:58:46.905447" elapsed="0.050418"/>
+</kw>
+<status status="PASS" start="2024-04-03T21:58:38.764568" elapsed="8.191297"/>
+</kw>
+<kw name="Close Browser session" owner="Generic" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-04-03T21:58:46.957987" elapsed="2.561552"/>
+</kw>
+<status status="PASS" start="2024-04-03T21:58:46.956977" elapsed="2.562562"/>
+</kw>
+<tag>Acceptance</tag>
+<tag>Sanity</tag>
+<status status="PASS" start="2024-04-03T21:58:29.712368" elapsed="19.808494"/>
+</test>
+<doc>To validate the login form</doc>
+<status status="PASS" start="2024-04-03T21:58:28.815302" elapsed="20.713126"/>
+</suite>
+<status status="PASS" start="2024-04-03T21:58:28.812022" elapsed="20.727124"/>
+</suite>
+<status status="PASS" start="2024-04-03T21:58:28.807329" elapsed="20.743748"/>
+</suite>
+<status status="PASS" start="2024-04-03T21:58:28.804805" elapsed="20.756760"/>
+</suite>
+<status status="PASS" start="2024-04-03T21:58:28.722854" elapsed="20.851763"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Acceptance</stat>
+<stat pass="1" fail="0" skip="0">Sanity</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="CompleteTestingEndToEnd">CompleteTestingEndToEnd</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Demo">CompleteTestingEndToEnd.Demo</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Robot frameworks">CompleteTestingEndToEnd.Demo.Robot frameworks</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1" name="Tests">CompleteTestingEndToEnd.Demo.Robot frameworks.Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1-s1" name="POM test file">CompleteTestingEndToEnd.Demo.Robot frameworks.Tests.POM test file</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

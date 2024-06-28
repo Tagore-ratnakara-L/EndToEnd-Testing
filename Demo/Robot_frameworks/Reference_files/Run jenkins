@@ -1,0 +1,16 @@
+How to run jenkins and integrate Robot Frameworks with jenkins
+
+Step 1: Download jenkins for windows from official jenkins downloads website
+Step 2: Run MSI file downloaded , Setup the jenkins it will asks for java path give it
+        By default jenkins run at server localhost:8080 in windows
+Note: Pre-requisites to run
+        java setup must be installed
+        java bin path application path should be added to system environment variables
+
+if you run from war file do below
+Step 3: run or initialize war / jar file by command
+        java -jar <filename> -httpPort=<any port>   ex: java -jar jenkins.war -httpPort=8089
+
+Step 4: Give initial admin password and install requirements
+Step 5: Now setup custom user name and password
+    there after you can access and use jenkins

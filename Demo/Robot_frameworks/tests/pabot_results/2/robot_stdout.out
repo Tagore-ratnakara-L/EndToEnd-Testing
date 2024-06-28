@@ -1,0 +1,9 @@
+==============================================================================
+POM test file :: To validate the login form                                   
+==============================================================================
+Select the Form and navigate to the Child window                      | PASS |
+------------------------------------------------------------------------------
+POM test file :: To validate the login form                           | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Robot_frameworks\tests\pabot_results\2\output.xml

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.0 on win32)" generated="2024-03-24T18:24:54.248781" rpa="false" schemaversion="5">
+<suite id="s1" name="POM test file" source="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Robot_frameworks\tests\POM_test_file.robot">
+<test id="s1-t1" name="Select the Form and navigate to the Child window" line="41">
+<kw name="open the browser with given url" owner="Generic" type="SETUP">
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:24:54.888119" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<arg>Chrome</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="PASS" start="2024-03-24T18:24:54.888119" elapsed="5.174550"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:25:00.062669" level="INFO">Opening url 'https://rahulshettyacademy.com/loginpagePractise/'</msg>
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2024-03-24T18:25:00.062669" elapsed="2.599850"/>
+</kw>
+<status status="PASS" start="2024-03-24T18:24:54.885942" elapsed="7.776577"/>
+</kw>
+<kw name="Fill the Login details and Login Form" owner="LandingPage">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:25:02.662519" level="INFO">Typing text 'rahulshettyacademy' into text field 'username'.</msg>
+<arg>username</arg>
+<arg>rahulshettyacademy</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-24T18:25:02.662519" elapsed="1.152752"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:25:03.816353" level="INFO">Typing password into text field 'password'.</msg>
+<msg time="2024-03-24T18:25:03.910692" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>password</arg>
+<arg>learning</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-24T18:25:03.815271" elapsed="0.255700"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:25:04.072166" level="INFO">Clicking element 'css:input[value='user']'.</msg>
+<arg>css:input[value='user']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-24T18:25:04.070971" elapsed="0.189969"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>css:.modal-body</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-03-24T18:25:04.264955" elapsed="0.254154"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:25:04.520322" level="INFO">Clicking element 'okayBtn'.</msg>
+<arg>okayBtn</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-24T18:25:04.519109" elapsed="0.156221"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:25:04.679383" level="INFO">Clicking element 'okayBtn'.</msg>
+<arg>okayBtn</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-24T18:25:04.678388" elapsed="0.112086"/>
+</kw>
+<kw name="Select From List By Value" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:25:04.791469" level="INFO">Selecting options from selection list 'css:select.form-control' by value teach.</msg>
+<arg>css:select.form-control</arg>
+<arg>teach</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" start="2024-03-24T18:25:04.791469" elapsed="0.232144"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:25:05.024414" level="INFO">Selecting checkbox 'terms'.</msg>
+<arg>terms</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-03-24T18:25:05.023862" elapsed="0.216136"/>
+</kw>
+<kw name="Checkbox Should Be Selected" owner="SeleniumLibrary">
+<msg time="2024-03-24T18:25:05.241117" level="INFO">Verifying checkbox 'terms' is selected.</msg>
+<arg>terms</arg>
+<doc>Verifies checkbox ``locator`` is selected/checked.</doc>
+<status status="PASS" start="2024-03-24T18:25:05.241117" elapsed="0.050537"/>
+</kw>
+<status status="PASS" start="2024-03-24T18:25:02.662519" elapsed="2.629135"/>
+</kw>
+<kw name="Close Browser session" owner="Generic" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-03-24T18:25:05.298420" elapsed="5.231680"/>
+</kw>
+<status status="PASS" start="2024-03-24T18:25:05.295763" elapsed="5.234337"/>
+</kw>
+<status status="PASS" start="2024-03-24T18:24:54.883758" elapsed="15.646342"/>
+</test>
+<doc>To validate the login form</doc>
+<status status="PASS" start="2024-03-24T18:24:54.287314" elapsed="16.243889"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="POM test file">POM test file</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

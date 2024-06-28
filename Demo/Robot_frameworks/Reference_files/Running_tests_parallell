@@ -1,0 +1,18 @@
+To run tests in a test file we can use command in terminal
+    - robot .
+
+To run specific tests or all tests or even two test cases in a single file parallel
+     install a plugin
+     - pip install -U robotframework-pabot
+
+     Successfully built robotframework-pabot
+     Installing collected packages: robotframework-stacktrace, natsort, robotframework-pabot
+     Successfully installed natsort-8.4.0 robotframework-pabot-2.18.0 robotframework-stacktrace-0.4.1
+
+    Run tests by command instead of robot to pabot .
+
+To run Test cases parallel in a single test file run command
+    pabot --testlevelsplit [path to tests]
+
+To run same tests with two different configs
+    pabot --argumentfile1 first.args --argumentfile2 second.args [path to tests]

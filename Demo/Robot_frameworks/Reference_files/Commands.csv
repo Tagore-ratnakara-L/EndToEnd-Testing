@@ -1,0 +1,15 @@
+Command Line Scenarios,Commands,example
+Execute All tests in the folder,robot .,
+Execute specific test,robot <testfilename>.robot,
+Execute Test Cases by test name,robot --t <testname> .,robot -t "Validate UnSuccessful Login" POM_test_file.robot
+                                ,                     ,robot -t "Validate*" POM_test_file.robot
+Execute Test cases by tags in any file,robot --include<tagname> .,robot --include SMOKE POM_test_file.robot
+Execute Test cases by multiple tags,robot --include<tagname1>AND<tagname1> .,robot --include SanityANDAcceptance POM_test_file.robot
+                                    ,robot --include<tagname1>OR<tagname1> .,robot --include SMOKEORRegression POM_test_file.robot
+Exclude tests by tag,robot --exclude <tagname> .,robot --exclude Regression POM_test_file.robot
+Execute Tests by suite name,robot --suite <foldername>,robot --suite tests .
+Execute only Failed tests,robot --rerunfailed output.xml <filename>,robot --rerunfailed output.xml POM_test_file.robot
+Assign and run tests by custom variable from runtime,robot --variable <variable_name>:<value> file_name,robot --variable browser_name:Firefox POM_test_file.robot
+How do you generate a test report in Robot Framework?,robot --report my_report.html my_test_case.,
+How do you set up test suites in Robot Framework?,robot --suite my_suite my_test_cases.,
+How do you run a subset of test cases in Robot Framework?,robot --test test_case_1,test_case_2 my_test_cases.robot,

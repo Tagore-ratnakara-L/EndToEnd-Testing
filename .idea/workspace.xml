@@ -7,11 +7,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0055194d-ce52-447b-a156-5006c1aa852e" name="Changes" comment="Login page elements testing basic webdriver tests">
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Handling_windows_tabs.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-11.png" afterDir="false" />
+    <list default="true" id="0055194d-ce52-447b-a156-5006c1aa852e" name="Changes" comment="Handling Parent and Child windows along with Tabs">
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/API_scripts/1st_api_test.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/API_scripts/API_requirements_package" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/Customized_Libraries/ShoppingCard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/PageObjectModels/Checkout_Page.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/PageObjectModels/Confirmation_page.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/PageObjectModels/Generic.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/PageObjectModels/LandingPage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/PageObjectModels/ShopPage.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/Reference_files/Commands.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/Reference_files/Customized_library" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/Reference_files/Load_Data_from_excel_or_csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/Reference_files/Reporting_in_robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/Reference_files/Run jenkins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/Reference_files/Running_tests_parallell" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/.pabotsuitenames" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/9-selenium-screenshot-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/DDT_Parametrizing_tests_by_datasets.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Data_driver_test.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/POM_test_file.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/custom_library.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/pabot_results/0/output.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/pabot_results/0/robot_stderr.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/pabot_results/0/robot_stdout.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/pabot_results/1/output.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/pabot_results/1/robot_stderr.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/pabot_results/1/robot_stdout.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/pabot_results/2/output.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/pabot_results/2/robot_stderr.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/pabot_results/2/robot_stdout.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/resources/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/selenium-screenshot-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/card_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Automation_frameworks/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/drivers/Chrome.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Automation_frameworks/drivers/geckodriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Automation_frameworks/drivers/Firefox.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Behave_Framework_tests/Feature/SteptableLoginFunc.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Behave_Framework_tests/Feature/SteptableLoginFunc.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Behave_Framework_tests/Steps/SteptableQuery.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Behave_Framework_tests/Steps/SteptableQuery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/Execution_of_framework" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/Reference_files/Execution_of_framework" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/Intro&amp;setup_requirements_for_robot" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/Reference_files/Intro&amp;setup_requirements_for_robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/Keywords_for_robot_framework.doc" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/Reference_files/Keywords_for_robot_framework.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/Requirements_for_framework" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/Reference_files/Requirements_for_framework" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Realtest_begins.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/Realtest_begins.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Robot_frameworks/tests/report.html" afterDir="false" />
@@ -26,6 +79,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Unit Test" />
+        <option value="Robot Feature File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -42,7 +96,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -74,14 +128,18 @@
     "Python.LoginTest.executor": "Run",
     "Python.Project1.executor": "Run",
     "Python.Waits.executor": "Run",
+    "Python.card_list.executor": "Run",
     "Python.login_test.executor": "Run",
+    "Robot.Invalid Password.executor": "Run",
+    "Robot.Select the Form and navigate to the Child window.executor": "Run",
+    "Robot.Validate UnSuccessful Login.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Prasa/PycharmProjects/CompleteTestingEndToEnd/Demo/Robot_frameworks",
+    "last_opened_file_path": "C:/Users/Prasa/PycharmProjects/CompleteTestingEndToEnd",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -100,15 +158,18 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Robot_frameworks\PageObjectModels" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Robot_frameworks\Reference_files" />
       <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Robot_frameworks" />
       <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Robot_frameworks\tests" />
       <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Automation_frameworks\tests" />
       <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd" />
-      <recent name="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo\Sample Projects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Waits">
+  <component name="RunManager" selected="Robot.Select the Form and navigate to the Child window">
     <configuration name="Waits" type="PythonConfigurationType" factoryName="Python">
       <module name="CompleteTestingEndToEnd" />
       <option name="ENV_FILES" value="" />
@@ -118,7 +179,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (CompleteTestingEndToEnd)" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -133,13 +193,81 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Invalid Password" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+      <module name="CompleteTestingEndToEnd" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Prasa\Python-env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--test &quot;CompleteTestingEndToEnd.Demo.Robot_frameworks.tests.DDT_Parametrizing_tests_by_datasets.Invalid Password&quot; ." />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Select the Form and navigate to the Child window" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+      <module name="CompleteTestingEndToEnd" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Prasa\Python-env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--test &quot;CompleteTestingEndToEnd.Demo.Robot_frameworks.tests.POM_test_file.Select the Form and navigate to the Child window&quot; ." />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Validate UnSuccessful Login" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+      <module name="CompleteTestingEndToEnd" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Prasa\Python-env\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--test &quot;CompleteTestingEndToEnd.Demo.Robot_frameworks.tests.POM_test_file.Validate UnSuccessful Login&quot; ." />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="LoginTest_valid" type="tests" factoryName="Unittests">
       <module name="CompleteTestingEndToEnd" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="C:\Users\Prasa\.virtualenvs\CompleteTestingEndToEnd\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.12 (CompleteTestingEndToEnd)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -164,22 +292,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;SeleniumUnitTest.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for SeleniumUnitTest.MyTestCase.test_skip" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="CompleteTestingEndToEnd" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;SeleniumUnitTest.MyTestCase.test_skip&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -221,7 +333,6 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="C:\Users\Prasa\.virtualenvs\CompleteTestingEndToEnd\Scripts\python.exe" />
-      <option name="SDK_NAME" value="Python 3.12 (CompleteTestingEndToEnd)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -241,21 +352,25 @@
       <item itemvalue="Python tests.UnitTest in Google Saerch" />
       <item itemvalue="Python tests.Unittests in Demo" />
       <item itemvalue="Python tests.Python tests for SeleniumUnitTest.MyTestCase" />
-      <item itemvalue="Python tests.Python tests for SeleniumUnitTest.MyTestCase.test_skip" />
       <item itemvalue="Python tests.Python tests in Demo" />
+      <item itemvalue="Robot.Invalid Password" />
+      <item itemvalue="Robot.Select the Form and navigate to the Child window" />
+      <item itemvalue="Robot.Validate UnSuccessful Login" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Robot.Select the Form and navigate to the Child window" />
+        <item itemvalue="Robot.Validate UnSuccessful Login" />
+        <item itemvalue="Robot.Invalid Password" />
         <item itemvalue="Python tests.Python tests in Demo" />
         <item itemvalue="Python tests.Python tests for SeleniumUnitTest.MyTestCase" />
-        <item itemvalue="Python tests.Python tests for SeleniumUnitTest.MyTestCase.test_skip" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
       </set>
     </attachedChunks>
   </component>
@@ -283,7 +398,21 @@
       <workItem from="1710610654994" duration="3196000" />
       <workItem from="1710764135168" duration="19514000" />
       <workItem from="1710841772735" duration="6367000" />
-      <workItem from="1710848197672" duration="12045000" />
+      <workItem from="1710848197672" duration="12873000" />
+      <workItem from="1710920003335" duration="2188000" />
+      <workItem from="1710934766439" duration="25000" />
+      <workItem from="1710934834184" duration="97000" />
+      <workItem from="1711108579951" duration="4319000" />
+      <workItem from="1711200009550" duration="21992000" />
+      <workItem from="1711283866833" duration="16943000" />
+      <workItem from="1711372611142" duration="27000" />
+      <workItem from="1711372856630" duration="600000" />
+      <workItem from="1711373935854" duration="1459000" />
+      <workItem from="1711468021389" duration="133000" />
+      <workItem from="1712152149384" duration="4090000" />
+      <workItem from="1713604013816" duration="9000" />
+      <workItem from="1713604818216" duration="280000" />
+      <workItem from="1718029827886" duration="800000" />
     </task>
     <task id="LOCAL-00001" summary="Completing 1st Unittest">
       <option name="closed" value="true" />
@@ -541,7 +670,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710858623013</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Handling Parent and Child windows along with Tabs">
+      <option name="closed" value="true" />
+      <created>1710860956468</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1710860956468</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -596,7 +733,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="POM 1st test" />
     <MESSAGE value="Additional Changes POM CMD" />
     <MESSAGE value="Katalon Recoded Test" />
     <MESSAGE value="Pytest Skip Techniques" />
@@ -621,17 +757,22 @@
     <MESSAGE value="Realtime testing using robot" />
     <MESSAGE value="Realtime testing using robot complete" />
     <MESSAGE value="Login page elements testing basic webdriver tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login page elements testing basic webdriver tests" />
+    <MESSAGE value="Handling Parent and Child windows along with Tabs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handling Parent and Child windows along with Tabs" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$ExplicitWait.coverage" NAME="ExplicitWait Coverage Results" MODIFIED="1710329715704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
+    <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$ImplicitWait.coverage" NAME="ImplicitWait Coverage Results" MODIFIED="1710328852915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
+    <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$card_list.coverage" NAME="card_list Coverage Results" MODIFIED="1711226462095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
+    <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$Unittests_in_Demo.coverage" NAME="Unittests in Demo Coverage Results" MODIFIED="1710317815388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
     <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$login_test.coverage" NAME="login_test Coverage Results" MODIFIED="1710765652431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/Automation_frameworks/tests" />
     <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$Waits.coverage" NAME="Waits Coverage Results" MODIFIED="1710765645229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\Prasa\PycharmProjects\CompleteTestingEndToEnd\Demo" />
+    <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$Validate_UnSuccessful_Login.coverage" NAME="Validate UnSuccessful Login Coverage Results" MODIFIED="1711286274844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$LoginTest.coverage" NAME="LoginTest Coverage Results" MODIFIED="1710346036566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/POM/Tests" />
-    <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$ExplicitWait.coverage" NAME="ExplicitWait Coverage Results" MODIFIED="1710329715704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
     <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$Project1.coverage" NAME="Project1 Coverage Results" MODIFIED="1710330327120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/Sample Projects" />
     <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$LoginTest_valid.coverage" NAME="LoginTest_valid Coverage Results" MODIFIED="1710349535051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$ImplicitWait.coverage" NAME="ImplicitWait Coverage Results" MODIFIED="1710328852915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
+    <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$Invalid_Password.coverage" NAME="Invalid Password Coverage Results" MODIFIED="1711110302115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$.coverage" NAME=" Coverage Results" MODIFIED="1710352662540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/PyTest" />
-    <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$Unittests_in_Demo.coverage" NAME="Unittests in Demo Coverage Results" MODIFIED="1710317815388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo" />
+    <SUITE FILE_PATH="coverage/CompleteTestingEndToEnd$Select_the_Form_and_navigate_to_the_Child_window.coverage" NAME="Select the Form and navigate to the Child window Coverage Results" MODIFIED="1712161707487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
