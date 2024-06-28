@@ -1,0 +1,13 @@
+To build customized selenium or any library to implement in Robot frameworks
+
+- import below first
+    from robot.api.deco import library, keyword
+
+- Now on create a 'class' and assign the <name> should match the <file name> .
+- Now provide a tag above for class @library.
+- As similar Assign the tag @keyword for methods.
+- Now create the methods you need to call in the robot file .
+
+After creation of file you have to import it as library in settings frame in robot
+    Library   <path>
+    path as = ../Customized_libraries/<file name>
